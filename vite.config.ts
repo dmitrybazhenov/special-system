@@ -3,6 +3,5 @@ import react from '@vitejs/plugin-react'
 
 export default defineConfig({
   plugins: [react()],
-  base: '/to_do_777/',   // ←←← Очень важно!
+  base: '/to_do_777/',   // ←←← Обязательно должно быть так
 })
-
