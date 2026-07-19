@@ -16,7 +16,7 @@ export const App: React.FC = () => {
 
     return (
         <article className={styles.article}>
-            <h1 className={styles.articleTitle}>To Do App</h1>
+            <h1 className={styles.articleTitle}>Список дел</h1>
             <section className={ styles.articleSection}>
               <InputPlus 
               onAdd={(title) => {
